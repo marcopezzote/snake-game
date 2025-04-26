@@ -1,0 +1,63 @@
+# Arquivos e diretórios específicos do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ambiente virtual
+venv/
+ENV/
+env/
+.env/
+.venv/
+
+# Diretório de configuração do PyCharm
+.idea/
+
+# Diretório de configuração do VS Code (mantendo launch.json)
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Arquivos gerados pelo OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Arquivos de log
+*.log
+logs/
+
+# Arquivos do snake-game específicos 
+settings.json
+# Não ignorar o arquivo de pontuações (caso queira versionar os recordes)
+# high_scores.json
+
+# Sons gerados dinamicamente (se desejar versioná-los, remova estas linhas)
+# assets/*.wav
+
+# Arquivos de backup
+*.bak
+*.tmp
+*~
