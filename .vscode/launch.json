@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Snake Game",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_game.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Generate Sounds",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/generate_sounds.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
